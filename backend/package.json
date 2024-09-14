@@ -1,0 +1,15 @@
+{
+  "name": "heinzenbooks-backend",
+  "version": "1.0.0",
+  "main": "app.js", 
+  "scripts": {
+    "start": "nodemon app.js" 
+  },
+  "author": "Thiago Heinzen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.2"
+  }
+}

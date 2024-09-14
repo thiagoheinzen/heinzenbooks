@@ -1,0 +1,12 @@
+{
+  "name": "heinzenbooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"" 
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
